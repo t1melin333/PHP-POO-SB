@@ -5,7 +5,7 @@ services:
     build: .
     container_name: php-app
     volumes:
-      - ./src:/var/www/html
+      - ./web:/var/www/html
       - ./xdebug.ini:/usr/local/etc/php/conf.d/xdebug.ini
     ports:
       - "8080:80"

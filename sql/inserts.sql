@@ -1,2 +1,0 @@
-USE sistema_bancario;
-
